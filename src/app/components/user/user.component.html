@@ -1,6 +1,7 @@
 <div class="user-wrap">
-  <h4>{{user.id}}.{{user.name}} - {{user.username}}</h4>
-  <p>Email: {{user.email}}</p>
-  <p>Phone: {{user.phone}}</p>
-  <p>Website: {{user.website}}</p>
+  <a routerLink="{{user.id}}"><h4>{{user.id}}.{{user.name}} - {{user.username}}</h4></a>
+<!--  <p>Email: {{user.email}}</p>-->
+<!--  <p>Phone: {{user.phone}}</p>-->
+<!--  <p>Website: {{user.website}}</p>-->
+  <button (click)="lift()">Lift</button>
 </div>
