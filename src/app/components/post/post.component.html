@@ -1,5 +1,6 @@
 <div class="post-wrap">
-  <h3>Post {{post.id}}:</h3>
-  <h4>{{post.title}}</h4>
-  <p>{{post.body}}</p>
+<!--  <h3>Post {{post.id}}:</h3>-->
+<!--  <h4>{{post.title}}</h4>-->
+<!--  <p>{{post.body}}</p>-->
+  <a routerLink="{{post.id}}" [state]="post"><h4>Post {{post.id}}: {{post.title}}</h4> </a>
 </div>
