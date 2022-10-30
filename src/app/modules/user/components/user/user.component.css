@@ -1,5 +1,12 @@
-.user-wrap{
-  padding: 10px;
-  margin-bottom: 20px;
-  background: #e7e6f8;
+.user{
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+  background: #f6f0ee;
+  max-width: 600px;
+
+}
+.info{
+  display: flex;
+  column-gap: 20px;
 }

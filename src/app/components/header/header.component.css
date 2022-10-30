@@ -1,12 +1,13 @@
-.menu{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 60px;
-  background: #f6dbd2;
-}
-.menu a{
-  text-decoration: none;
-  color: #5f5656;
-  font-size: 28px;
-}
+ .menu{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 60px;
+   background: #f6e0d8;
+ }
+ .menu a{
+   text-decoration: none;
+   font-size: 26px;
+   font-family: Arial;
+   color: #5a362a;
+ }

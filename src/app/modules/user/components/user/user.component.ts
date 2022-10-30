@@ -7,11 +7,9 @@ import {IUser} from "../../interfaces";
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit {
-  @Input()
-  user: IUser;
-
-  constructor() {
-  }
+@Input()
+user: IUser;
+  constructor() { }
 
   ngOnInit(): void {
   }

@@ -1,4 +1,4 @@
-export interface IUser{
+export interface IUser {
   id: number,
   name: string,
   username: string,
@@ -10,7 +10,7 @@ export interface IUser{
     zipcode: string,
     geo: {
       lat: string,
-      lng: string
+      lng: string,
     }
   },
   phone: string,
@@ -18,6 +18,6 @@ export interface IUser{
   company: {
     name: string,
     catchPhrase: string,
-    bs: string
+    bs: string,
   }
 }
