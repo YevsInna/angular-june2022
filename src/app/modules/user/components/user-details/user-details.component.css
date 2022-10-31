@@ -1,0 +1,9 @@
+.info{
+  display: flex;
+  column-gap: 50px;
+  border-radius: 10px;
+  border: 1px solid #e3c4c4;
+ justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}

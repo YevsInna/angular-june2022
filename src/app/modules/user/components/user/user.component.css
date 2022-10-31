@@ -1,12 +1,17 @@
-.user{
+.user {
+  border-radius: 10px;
   text-align: center;
-  padding: 20px;
-  margin: 30px;
+  padding: 8px;
+  margin: 10px;
   background: #f6f0ee;
   max-width: 600px;
-
 }
-.info{
-  display: flex;
-  column-gap: 20px;
+
+button {
+  width: 200px;
+  padding: 8px;
+  border: none;
+  background: #f6e0d8;
+  cursor: pointer;
+  border-radius: 10px;
 }
